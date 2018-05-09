@@ -28,6 +28,8 @@ public class Goods {
             count+=5;
             System.out.println(Thread.currentThread().getName() + "生产"+5+"个"+"---------------------------------------产库剩余" + count + "-----------------------------------");
             conditionC.signalAll();
+
+            
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
