@@ -10,14 +10,14 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Goods {
     private int count = 0;
-    private static final int MAX = 9;//最大产量
+    private static final int MAX = 9;//??????
     private Random random = new Random();
     private Lock lock = new ReentrantLock();
     private Condition conditionP = lock.newCondition();
     private Condition conditionC = lock.newCondition();
 
     /**
-     * 生产
+     * ????
      */
     public void p() {
         lock.lock();
@@ -26,7 +26,7 @@ public class Goods {
                 conditionP.await();
             }
             count += 5;
-            System.out.println(Thread.currentThread().getName() + "生产" + 5 + "个" + "---------------------------------------产库剩余" + count + "-----------------------------------");
+            System.out.println(Thread.currentThread().getName() + "????" + 5 + "??" + "---------------------------------------???????" + count + "-----------------------------------");
             conditionC.signalAll();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -37,7 +37,7 @@ public class Goods {
     }
 
     /**
-     * 消费
+     * ????
      */
     public void c() {
         lock.lock();
@@ -48,7 +48,7 @@ public class Goods {
             int temp = (int) (2 + Math.random() * (count - 2 + 1));
             if (temp > 0 && temp <= count) {
                 count -= temp;
-                System.out.println(Thread.currentThread().getName() + "消费" + temp + "个" + "---------------------------------------产库剩余" + count + "-----------------------------------");
+                System.out.println(Thread.currentThread().getName() + "????" + temp + "??" + "---------------------------------------???????" + count + "-----------------------------------");
             }
             conditionP.signalAll();
 
@@ -61,7 +61,7 @@ public class Goods {
     }
 
     /**
-     * 唤醒消费
+     * ????????
      */
     public void signalP() {
         lock.lock();
@@ -74,7 +74,7 @@ public class Goods {
     }
 
     /**
-     * 唤醒生产
+     * ????????
      */
     public void signalC() {
         lock.lock();
@@ -86,6 +86,6 @@ public class Goods {
     }
 
     private void reportCount() {
-        System.out.println(Thread.currentThread().getName() + "---------------------------------------产库剩余" + count + "-----------------------------------");
+        System.out.println(Thread.currentThread().getName() + "---------------------------------------???????" + count + "-----------------------------------");
     }
 }
