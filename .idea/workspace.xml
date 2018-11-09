@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408bdfc5-86a0-4cf2-a9d4-2f70d9f110bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_dagger_dagger_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/deadlock/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/deadlock/deadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/DraggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/Module.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/CoffeeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/CoffeeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/DripCoffeeModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/ElectricHeater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/Heater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/Pump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/PumpModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadtest/draggers/coffee/Thermosiphon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_api_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_api_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/CRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/Goods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/PRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/PrintTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/LoanCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/MyInterface1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/MyInterface2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/TestClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/collection/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/methodhandle/MethodHandleT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/api/reference/RefeerenceT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/down/DownInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/errorthought/ConsumeRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/errorthought/Goods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/errorthought/GoodsManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/errorthought/InterruptTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/errorthought/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/errorthought/ProductRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/errorthought/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/lock/CRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/lock/Goods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/lock/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/lock/PRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/okio/OkIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/p_r_test/P.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/p_r_test/ValueObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/synchronizedTest/CRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/synchronizedTest/Goods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/synchronizedTest/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/synchronizedTest/PRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/syncronizedObject/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/syncronizedObject/SyncronizedHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/syncronizedObject/SyncronizedOnject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/testjoin/Run1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/testjoin/TheadA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/testjoin/ThreadB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/threadlocal/Run.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadtest/threadlocal/Tools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadtest/deadlock/deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadtest/deadlock/deadlock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,8 +39,8 @@
       <file leaf-file-name="deadlock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/threadtest/deadlock/deadlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -539,7 +477,7 @@
       <workItem from="1541060932437" duration="5440000" />
       <workItem from="1541127620612" duration="597000" />
       <workItem from="1541492775364" duration="914000" />
-      <workItem from="1541662872145" duration="2502000" />
+      <workItem from="1541662872145" duration="3794000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539937226274</created>
@@ -555,15 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540869453757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1541668821169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541668821169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57412000" />
+    <option name="totallyTimeSpent" value="58704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -575,7 +519,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32985553" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32979593" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979593" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -923,6 +867,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#237#244#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threadtest/deadlock/deadlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="540">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

@@ -11,7 +11,7 @@ public class deadlock {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
-             
+
         }
         thread_b.start();
     }
